@@ -1,0 +1,15 @@
+<h1>Urls</h1>
+
+<%= @urls.each do |url| %>
+  <p>
+    <%= url.original_url %>
+  </p>
+
+  <p>
+    <%= url.short_url %>
+  </p>
+
+  <p>
+    <%= url.visits %>
+  </p>
+<% end %>
